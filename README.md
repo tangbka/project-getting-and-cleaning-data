@@ -23,3 +23,4 @@ This is the cleaned data. You should see this file located in the Coursera webpa
 To load the <b>TidyData.txt</b> into R, do the following
 a) Download the file onto your working directory.
 b) tidy <- read.table("./TidyData.txt")
+c) tidy
