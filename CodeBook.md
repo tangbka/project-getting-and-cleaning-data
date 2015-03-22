@@ -366,6 +366,7 @@ on
 180                tBodyGyroJerk-iqr()-X		Interquartile range of the body jerk angular velocity in the X-dimension
 
 181                tBodyGyroJerk-iqr()-Y		Interquartile range of the body jerk angular velocity in the Y-dimension
+
 182                
                 tBodyGyroJerk-iqr()-Z		Interquartile range of the body jerk angular velocity in the Z-dimension
 
@@ -388,14 +389,23 @@ on
 191          tBodyGyroJerk-arCoeff()-Y,2		Autorregresion coefficient for the body jerk angular velocity in the Y-dimension (Order 2)
 
 192          tBodyGyroJerk-arCoeff()-Y,3		Autorregresion coefficient for the body jerk angular velocity in the Y-dimension (Order 3)
+
 193          tBodyGyroJerk-arCoeff()-Y,4		Autorregresion coefficient for the body jerk angular velocity in the Y-dimension (Order 4)
+
 194          tBodyGyroJerk-arCoeff()-Z,1		Autorregresion coefficient for the body jerk angular velocity in the Z-dimension (Order 1)
+
 195          tBodyGyroJerk-arCoeff()-Z,2		Autorregresion coefficient for the body jerk angular velocity in the Z-dimension (Order 2)
+
 196          tBodyGyroJerk-arCoeff()-Z,3		Autorregresion coefficient for the body jerk angular velocity in the Z-dimension (Order 3)
+
 197          tBodyGyroJerk-arCoeff()-Z,4		Autorregresion coefficient for the body jerk angular velocity in the Y-dimension (Order 4)
+
 198      tBodyGyroJerk-correlation()-X,Y		Correlation coefficient between X- and Y-dimension for body jerk angular velocity
+
 199      tBodyGyroJerk-correlation()-X,Z		Correlation coefficient between X- and Z-dimension for body jerk angular velocity
+
 200      tBodyGyroJerk-correlation()-Y,Z		Correlation coefficient between X- and Y-dimension for body jerk angular velocity
+
 201                   tBodyAccMag-mean()		Mean of magnitude of body acceleration
 
 202                    tBodyAccMag-std()		Standard deviation of magnitude of body acceleration
