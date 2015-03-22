@@ -59,6 +59,7 @@ subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
 master_sub_list <- rbind(subject_train,subject_test)
 
+# Add subject indices as the 68th column of the data set
 merged_subset$subject <- master_sub_list
 names(merged_subset[,68]) <- "subject"
 
