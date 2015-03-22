@@ -1,2 +1,3 @@
-# project-getting-and-cleaning-data
+### Course Project - Getting and Cleaning Data
 This repo contains the script to clean up and create a tidy data set as part of the Coursera course Getting &amp; Cleaning Data.
+
