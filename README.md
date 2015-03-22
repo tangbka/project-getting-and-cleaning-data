@@ -16,4 +16,4 @@ This file explains the variables in the tidy data set, the data and the steps I 
 #####4) TidyData.txt
 This is the cleaned data.
 
-<u><b> What You Should Do?<\b><\u>
+<u><b> What You Should Do?</b></u>
