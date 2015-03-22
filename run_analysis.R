@@ -22,6 +22,8 @@ final_index <- sort(c(index_mean,index_std))
 
 # Use the indices to extract the measurements we want.
 merged_subset <- merged_set[,final_index]
+
+# Remove memory-heavy objects
 rm(list=c("trg_set","test_set","merged_set"))
 
 
@@ -35,12 +37,12 @@ test_index <- read.table("./UCI HAR Dataset/test/y_test.txt")
 if (!any(installed.packages() %in% "dplyr")) install.packages("dplyr")
 library(dplyr)
 
-# Append activity names to the labels.
+# Append activity names to the numeric labels for each observation.
 train_label <- left_join(train_index,act_label_code,by="V1")
 test_label <- left_join(test_index,act_label_code,by="V1")
 
 master_act_label <- rbind(train_label,test_label)
-# Add activities as the 67th column to the merged data set.
+# Add activity as the 67th column to the merged data set.
 merged_subset <- mutate(merged_subset,activity=master_act_label[,2])
 
 
