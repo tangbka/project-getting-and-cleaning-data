@@ -1120,9 +1120,13 @@ on
 
 		
 555          angle(tBodyAccMean,gravity)		Angle between mean of body acceleration and gravity)
+
 556 angle(tBodyAccJerkMean),gravityMean)		Angle between mean of body jerk acceleration and gravity mean)
+
 557     angle(tBodyGyroMean,gravityMean)		Angle between mean of body angular velocity and gravity mean)
+
 558 angle(tBodyGyroJerkMean,gravityMean)		Angle between mean of body jerk angular velocity and gravity mean)
+
 559                 angle(X,gravityMean)		Angle between X and gravity mean
 
 560                 angle(Y,gravityMean)		Angle between Y and gravity mean
