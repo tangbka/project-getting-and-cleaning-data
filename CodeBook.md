@@ -1132,3 +1132,17 @@ on
 560                 angle(Y,gravityMean)		Angle between Y and gravity mean
 
 561                 angle(Z,gravityMean)		Angle between Z and gravity mean
+
+<b> Additional Processed Variables </b>
+
+562 		<i>activity</i>			Describes the 6 activities that subjects were put through.
+		1. WALKING
+		2. WALKING_UPSTAIRS
+		3. WALKING_DOWNSTAIRS
+		4. SITTING
+		5. STANDING
+		6. LAYING
+
+563		<i>subject</i>				Indicates an index representing each test subject who took part in the experiment.
+		Takes the values 1 to 30
+		
