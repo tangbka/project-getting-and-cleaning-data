@@ -509,3 +509,211 @@ on
 251              tBodyGyroMag-arCoeff()3		Autorregresion coefficient of the magnitude of angular velocity (Order 3)
 
 252              tBodyGyroMag-arCoeff()4		Autorregresion coefficient of the magnitude of angular velocity (Order 4)
+
+253              tBodyGyroJerkMag-mean()		Mean of magnitude of body jerk angular velocity 
+
+254               tBodyGyroJerkMag-std()		Standard deviation of magnitude of body jerk angular velocity
+
+
+255               tBodyGyroJerkMag-mad()		Median absolute deviation of the magnitude of body jerk angular velocity
+
+256               tBodyGyroJerkMag-max()		Largest value of the magnitude of body jerk angular velocity 
+257               tBodyGyroJerkMag-min()		Smallest value of the magnitude of body jerk angular velocity
+
+258               tBodyGyroJerkMag-sma()		Signal magnitude of the magnitude of body jerk angular velocity 
+
+259            tBodyGyroJerkMag-energy()		Energy measures of the magnitude of body jerk angular velocity 
+
+260               tBodyGyroJerkMag-iqr()		interquartile range of the magnitude of body jerk angular velocity 
+
+261           tBodyGyroJerkMag-entropy()		Signal entropy of the magnitude of body jerk angular velocity 
+262          tBodyGyroJerkMag-arCoeff()1		Autorregresion coefficient of the magnitude of body jerk angular velocity  (Order 1)
+
+263          tBodyGyroJerkMag-arCoeff()2		Autorregresion coefficient of the magnitude of body jerk angular velocity  (Order 2)
+
+264          tBodyGyroJerkMag-arCoeff()3		Autorregresion coefficient of the magnitude of body jerk angular velocity  (Order 3)
+
+265          tBodyGyroJerkMag-arCoeff()4		Autorregresion coefficient of the magnitude of body jerk angular velocity  (Order 4)
+
+266                    fBodyAcc-mean()-X		mean of Fast Fourier Transform applied on body acceleration in X-dimension
+
+267                    fBodyAcc-mean()-Y		mean of Fast Fourier Transform applied on body acceleration in Y-dimension
+
+268                    fBodyAcc-mean()-Z		mean of Fast Fourier Transform applied on body acceleration in Z-dimension
+
+269                     fBodyAcc-std()-X		Standard deviation of Fast Fourier Transform applied on body acceleration in the X-
+
+dimension
+270                     fBodyAcc-std()-Y		Standard deviation of Fast Fourier Transform applied on body acceleration in the Y-
+
+dimension
+271                     fBodyAcc-std()-Z		Standard deviation of Fast Fourier Transform applied on body acceleration in the Z-
+
+dimension
+272                     fBodyAcc-mad()-X		Median absolute deviation of the Fast Fourier Transform applied on body acceleration in 
+
+the X-dimension
+273                     fBodyAcc-mad()-Y		Median absolute deviation of the Fast Fourier Transform applied on body acceleration in 
+
+the Y-dimension
+274                     fBodyAcc-mad()-Z		Median absolute deviation of the Fast Fourier Transform applied on body acceleration in 
+
+the Z-dimension
+275                     fBodyAcc-max()-X		Largest value of the Fast Fourier Transform applied on body acceleration in the X-
+
+dimension
+276                     fBodyAcc-max()-Y		Largest value of the Fast Fourier Transform applied on body acceleration in the Y-
+
+dimension
+277                     fBodyAcc-max()-Z		Largest value of the Fast Fourier Transform applied on body acceleration in the Z-
+
+dimension
+278                     fBodyAcc-min()-X		Smallest value of the Fast Fourier Transform applied on body acceleration in the X-
+
+dimension
+279                     fBodyAcc-min()-Y		Smallest value of the Fast Fourier Transform applied on body acceleration in the Y-
+
+dimension
+280                     fBodyAcc-min()-Z		Smallest value of the Fast Fourier Transform applied on body acceleration in the Z-
+
+dimension
+281                       fBodyAcc-sma()		Signal magnitude area of the Fast Fourier Transform applied on body acceleration
+
+282                  fBodyAcc-energy()-X		Energy measure of the Fast Fourier Transform applied on body acceleration in the X-dimension]
+
+283                  fBodyAcc-energy()-Y		Energy measure of the Fast Fourier Transform applied on body acceleration in the Y-
+
+dimension
+
+284                  fBodyAcc-energy()-Z		Energy measure of the Fast Fourier Transform applied on body acceleration in the Z-
+
+dimension
+
+285                     fBodyAcc-iqr()-X		Interquartile range of the Fast Fourier Transform applied on body acceleration in the X-
+
+dimension
+286                     fBodyAcc-iqr()-Y		Interquartile range of the Fast Fourier Transform applied on body acceleration in the Y-
+
+dimension
+287                     fBodyAcc-iqr()-Z		Interquartile range of the Fast Fourier Transform applied on body acceleration in the Z-
+
+dimension
+288                 fBodyAcc-entropy()-X		Signal entropy of the Fast Fourier Transform applied on body acceleration in the X-
+
+dimension
+289                 fBodyAcc-entropy()-Y		Signal entropy of the Fast Fourier Transform applied on body acceleration in the Y-
+
+dimension
+290                 fBodyAcc-entropy()-Z		Signal entropy of the Fast Fourier Transform applied on body acceleration in the Z-
+
+dimension
+291                   fBodyAcc-maxInds-X		Index of the frequency component with largest magnitude when applied to body acceleration 
+
+in X-dimension
+292                   fBodyAcc-maxInds-Y		Index of the frequency component with largest magnitude when applied to body acceleration 
+
+in X-dimension
+293                   fBodyAcc-maxInds-Z		Index of the frequency component with largest magnitude when applied to body acceleration 
+
+in X-dimension
+294                fBodyAcc-meanFreq()-X		Weighted average of the frequency components for body acceleration in X-dimension
+
+295                fBodyAcc-meanFreq()-Y		Weighted average of the frequency components for body acceleration in Y-dimension
+
+296                fBodyAcc-meanFreq()-Z		Weighted average of the frequency components for body acceleration in Z-dimension
+
+297                fBodyAcc-skewness()-X		Skewness of frequency for body acceleration in X-dimension
+
+298                fBodyAcc-kurtosis()-X		Kurtosis of frequency for body acceleration in X-Dimension.
+
+299                fBodyAcc-skewness()-Y		Skewness of frequency for body acceleration in Y-dimension
+
+300                fBodyAcc-kurtosis()-Y		Kurtosis of frequency for body acceleration in Y-Dimension.
+
+301                fBodyAcc-skewness()-Z		Skewness of frequency for body acceleration in Z-dimension
+
+302                fBodyAcc-kurtosis()-Z		Kurtosis of frequency for body acceleration in Z-Dimension.
+
+303           fBodyAcc-bandsEnergy()-1,8		Energy of a frequency interval within the stated bins of the FFT of each window
+
+304          fBodyAcc-bandsEnergy()-9,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+305         fBodyAcc-bandsEnergy()-17,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+306         fBodyAcc-bandsEnergy()-25,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+307         fBodyAcc-bandsEnergy()-33,40		Energy of a frequency interval within the stated bins of the FFT of each window
+
+308         fBodyAcc-bandsEnergy()-41,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+309         fBodyAcc-bandsEnergy()-49,56		Energy of a frequency interval within the stated bins of the FFT of each window
+
+310         fBodyAcc-bandsEnergy()-57,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+311          fBodyAcc-bandsEnergy()-1,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+312         fBodyAcc-bandsEnergy()-17,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+313         fBodyAcc-bandsEnergy()-33,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+314         fBodyAcc-bandsEnergy()-49,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+315          fBodyAcc-bandsEnergy()-1,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+316         fBodyAcc-bandsEnergy()-25,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+317           fBodyAcc-bandsEnergy()-1,8		Energy of a frequency interval within the stated bins of the FFT of each window
+
+318          fBodyAcc-bandsEnergy()-9,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+319         fBodyAcc-bandsEnergy()-17,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+320         fBodyAcc-bandsEnergy()-25,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+321         fBodyAcc-bandsEnergy()-33,40		Energy of a frequency interval within the stated bins of the FFT of each window
+
+322         fBodyAcc-bandsEnergy()-41,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+323         fBodyAcc-bandsEnergy()-49,56		Energy of a frequency interval within the stated bins of the FFT of each window
+
+324         fBodyAcc-bandsEnergy()-57,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+325          fBodyAcc-bandsEnergy()-1,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+326         fBodyAcc-bandsEnergy()-17,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+327         fBodyAcc-bandsEnergy()-33,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+328         fBodyAcc-bandsEnergy()-49,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+329          fBodyAcc-bandsEnergy()-1,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+330         fBodyAcc-bandsEnergy()-25,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+331           fBodyAcc-bandsEnergy()-1,8		Energy of a frequency interval within the stated bins of the FFT of each window
+
+332          fBodyAcc-bandsEnergy()-9,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+333         fBodyAcc-bandsEnergy()-17,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+334         fBodyAcc-bandsEnergy()-25,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+335         fBodyAcc-bandsEnergy()-33,40		Energy of a frequency interval within the stated bins of the FFT of each window
+
+336         fBodyAcc-bandsEnergy()-41,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+337         fBodyAcc-bandsEnergy()-49,56		Energy of a frequency interval within the stated bins of the FFT of each window
+
+338         fBodyAcc-bandsEnergy()-57,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+339          fBodyAcc-bandsEnergy()-1,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+340         fBodyAcc-bandsEnergy()-17,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+341         fBodyAcc-bandsEnergy()-33,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+342         fBodyAcc-bandsEnergy()-49,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+343          fBodyAcc-bandsEnergy()-1,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+344         fBodyAcc-bandsEnergy()-25,48		Energy of a frequency interval within the stated bins of the FFT of each window
