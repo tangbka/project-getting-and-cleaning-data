@@ -517,7 +517,8 @@ on
 
 255               tBodyGyroJerkMag-mad()		Median absolute deviation of the magnitude of body jerk angular velocity
 
-256               tBodyGyroJerkMag-max()		Largest value of the magnitude of body jerk angular velocity 
+256               tBodyGyroJerkMag-max()		Largest value of the magnitude of body jerk angular velocity
+
 257               tBodyGyroJerkMag-min()		Smallest value of the magnitude of body jerk angular velocity
 
 258               tBodyGyroJerkMag-sma()		Signal magnitude of the magnitude of body jerk angular velocity 
