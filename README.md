@@ -14,7 +14,7 @@ Script to be run in R that would create a tidy data set extracted from https://d
 This file explains the variables in the tidy data set, the data and the steps I took to clean up the raw data.
 
 #####4) TidyData.txt
-This is the cleaned data. If you follow the stesp in the <u>CodeBook.md</u> and run the scrip <u>run_analysis.R</u> in R, you should obtain the same data set.
+This is the cleaned data. If you follow the steps in the <u>CodeBook.md</u> and run the scrip <u>run_analysis.R</u> in R, you should obtain the same data set.
 
 
 ######What You Should Do?
