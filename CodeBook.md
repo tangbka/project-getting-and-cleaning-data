@@ -3,11 +3,11 @@
 
 
 All values for variables 1 to 561 have been normalised to between 1 and -1.
-Unit: 
-(1) All acceleration measurements (including mean, standard deviation, absolute deviation, quantiles, max, min) are recorded in units of g (or 9.8 m/s2).
-(2) Gyroscope measurements (including mean, standard deviation, absolute deviation, quantiles, max, min) are reported in radians/seconds.
-(3) All coefficients (i.e. autoregressions, correlation) and indices do not have units
-(4) Angles (Variables 555 to 561) are reported in degrees.
+<br>Unit:</br>
+<br>(1) All acceleration measurements (including mean, standard deviation, absolute deviation, quantiles, max, min) are recorded in units of g (or 9.8 m/s2).</br>
+<br>(2) Gyroscope measurements (including mean, standard deviation, absolute deviation, quantiles, max, min) are reported in radians/seconds.</br>
+<br>(3) All coefficients (i.e. autoregressions, correlation) and indices do not have units</br>
+<br>(4) Angles (Variables 555 to 561) are reported in degrees.</br>
 
 1 		             tBodyAcc-mean()-X			Mean of body acceleration in the X-dimension
 
@@ -1140,14 +1140,14 @@ on
 
 <b> Additional Processed Variables </b>
 
-562 		<i>activity</i>			Describes the 6 activities that subjects were put through.
-		1. WALKING
-		2. WALKING_UPSTAIRS
-		3. WALKING_DOWNSTAIRS
-		4. SITTING
-		5. STANDING
-		6. LAYING
+562 		<i>activity</i>			<br>Describes the 6 activities that subjects were put through.</br>
+	<br>1. WALKING</br>
+	<br>2. WALKING_UPSTAIRS</br>
+	<br>3. WALKING_DOWNSTAIRS</br>
+	<br>4. SITTING</br>
+	<br>5. STANDING</br>
+	<br>6. LAYING</br>
 
-563		<i>subject</i>				Indicates an index representing each test subject who took part in the experiment.
-		Takes the values 1 to 30
+563		<i>subject</i>				<br>Indicates an index representing each test subject who took part in the experiment.</br>
+		<br>Takes the values 1 to 30</br>
 		
