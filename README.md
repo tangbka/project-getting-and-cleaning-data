@@ -14,8 +14,12 @@ Script to be run in R that would create a tidy data set extracted from https://d
 This file explains the variables in the tidy data set, the data and the steps I took to clean up the raw data.
 
 #####4) TidyData.txt
-This is the cleaned data. The file is located in Coursera webpage, if you happen to evaluate my assignment. If you follow the steps in the <u>CodeBook.md</u> and run the scrip <u>run_analysis.R</u> in R, you should obtain the same data set.
+This is the cleaned data. You should see this file located in the Coursera webpage under "Course Project", if you happen to evaluate my assignment. If you follow the steps in the <u>CodeBook.md</u> and run the scrip <u>run_analysis.R</u> in R, you should obtain the same data set.
 
 
 ######What You Should Do?
 <p>Start by reading the steps and meaning of the variables in <b>(3) CodeBook.md</b>. Then run the script <b>(4) run_analysis.R</b> in R. </p>
+
+To load the <b>TidyData.txt</b> into R, do the following
+a) Download the file onto your working directory.
+b) tidy <- read.table("./TidyData.txt")
