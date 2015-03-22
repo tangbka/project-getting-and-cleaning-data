@@ -295,17 +295,29 @@ All values for variables 1 to 561 have been normalised to between 1 and -1.
 145                tBodyGyro-entropy()-Z		Signal entropy of the body angular velocity in the Z-dimension
 
 146              tBodyGyro-arCoeff()-X,1		Autorregresion coefficient for the body angular velocity in the X-dimension (Order 1)
+
 147              tBodyGyro-arCoeff()-X,2		Autorregresion coefficient for the body angular velocity in the X-dimension (Order 2)
+
 148              tBodyGyro-arCoeff()-X,3		Autorregresion coefficient for the body angular velocity in the X-dimension (Order 3)
+
 149              tBodyGyro-arCoeff()-X,4		Autorregresion coefficient for the body angular velocity in the X-dimension (Order 4)
+
 150              tBodyGyro-arCoeff()-Y,1		Autorregresion coefficient for the body angular velocity in the Y-dimension (Order 1)
+
 151              tBodyGyro-arCoeff()-Y,2		Autorregresion coefficient for the body angular velocity in the Y-dimension (Order 2)
+
 152              tBodyGyro-arCoeff()-Y,3		Autorregresion coefficient for the body angular velocity in the Y-dimension (Order 3)
+
 153              tBodyGyro-arCoeff()-Y,4		Autorregresion coefficient for the body angular velocity in the Y-dimension (Order 4)
+
 154              tBodyGyro-arCoeff()-Z,1		Autorregresion coefficient for the body angular velocity in the Z-dimension (Order 1)
+
 155              tBodyGyro-arCoeff()-Z,2		Autorregresion coefficient for the body angular velocity in the Z-dimension (Order 2)
+
 156              tBodyGyro-arCoeff()-Z,3		Autorregresion coefficient for the body angular velocity in the Z-dimension (Order 3)
+
 157              tBodyGyro-arCoeff()-Z,4		Autorregresion coefficient for the body angular velocity in the Y-dimension (Order 4)
+
 158          tBodyGyro-correlation()-X,Y		Correlation coefficient between X- and Y-dimension for body angular velocity
 
 159          tBodyGyro-correlation()-X,Z		Correlation coefficient between X- and Z-dimension for body angular velocity
