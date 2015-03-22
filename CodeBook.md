@@ -854,3 +854,277 @@ on
 422      fBodyAccJerk-bandsEnergy()-1,24		Energy of a frequency interval within the stated bins of the FFT of each window
 
 423     fBodyAccJerk-bandsEnergy()-25,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+424                   fBodyGyro-mean()-X		mean of Fast Fourier Transform applied on body angular velocity in X-dimension
+
+425                   fBodyGyro-mean()-Y		mean of Fast Fourier Transform applied on body angular velocity in Y-dimension
+
+426                   fBodyGyro-mean()-Z		mean of Fast Fourier Transform applied on body angular velocity in Z-dimension
+
+427                    fBodyGyro-std()-X		Standard deviation of Fast Fourier Transform applied on body angular velocity in the X-dimension
+
+428                    fBodyGyro-std()-Y		Standard deviation of Fast Fourier Transform applied on body angular velocity in the Y-dimension
+
+429                    fBodyGyro-std()-Z		Standard deviation of Fast Fourier Transform applied on body angular velocity in the Z-dimension
+
+430                    fBodyGyro-mad()-X		Median absolute deviation of the Fast Fourier Transform applied on body angular velocity in the X-dimension
+
+431                    fBodyGyro-mad()-Y		Median absolute deviation of the Fast Fourier Transform applied on body angular velocity in the Y-dimension
+
+432                    fBodyGyro-mad()-Z		Median absolute deviation of the Fast Fourier Transform applied on body angular velocity in the Z-dimension
+
+433                    fBodyGyro-max()-X		Largest value of the Fast Fourier Transform applied on body angular velocity in the X-dimension
+
+434                    fBodyGyro-max()-Y		Largest value of the Fast Fourier Transform applied on body angular velocity in the Y-dimension
+
+435                    fBodyGyro-max()-Z		Largest value of the Fast Fourier Transform applied on body angular velocity in the Z-dimension
+
+436                    fBodyGyro-min()-X		Smallest value of the Fast Fourier Transform applied on body angular velocity in the X-dimension
+
+437                    fBodyGyro-min()-Y		Smallest value of the Fast Fourier Transform applied on body angular velocity in the Y-dimension
+
+438                    fBodyGyro-min()-Z		Smallest value of the Fast Fourier Transform applied on body angular velocity in the Z-dimension
+
+439                      fBodyGyro-sma()		Signal magnitude area of the Fast Fourier Transform applied on body angular velocity
+
+440                 fBodyGyro-energy()-X		Energy measure of the Fast Fourier Transform applied on body angular velocity in the X-dimension
+
+441                 fBodyGyro-energy()-Y		Energy measure of the Fast Fourier Transform applied on body angular velocity in the Y-dimension
+
+442                 fBodyGyro-energy()-Z		Energy measure of the Fast Fourier Transform applied on body angular velocity in the Z-dimension
+
+443                    fBodyGyro-iqr()-X		Interquartile range of the Fast Fourier Transform applied on body angular velocity in the X-dimension
+
+444                    fBodyGyro-iqr()-Y		Interquartile range of the Fast Fourier Transform applied on body angular velocity in the Y-dimension
+
+445                    fBodyGyro-iqr()-Z		Interquartile range of the Fast Fourier Transform applied on body angular velocity in the Z-dimension
+
+446                fBodyGyro-entropy()-X		Signal entropy of the Fast Fourier Transform applied on body angular velocity in the X-dimension
+
+447                fBodyGyro-entropy()-Y		Signal entropy of the Fast Fourier Transform applied on body angular velocity in the Y-dimension
+
+448                fBodyGyro-entropy()-Z		Signal entropy of the Fast Fourier Transform applied on body angular velocity in the Z-dimension
+
+449                  fBodyGyro-maxInds-X		Index of the frequency component with largest magnitude when applied to body angular velocity in X-dimension
+
+450                  fBodyGyro-maxInds-Y		Index of the frequency component with largest magnitude when applied to body angular velocity in X-dimension
+
+451                  fBodyGyro-maxInds-Z		Index of the frequency component with largest magnitude when applied to body angular velocity in X-dimension
+
+452               fBodyGyro-meanFreq()-X		Weighted average of the frequency components for body angular velocity in X-dimension
+
+453               fBodyGyro-meanFreq()-Y		Weighted average of the frequency components for body angular velocity in Y-dimension
+
+454               fBodyGyro-meanFreq()-Z		Weighted average of the frequency components for body angular velocity in Z-dimension
+
+455               fBodyGyro-skewness()-X		Skewness of frequency for body angular velocity in X-dimension
+
+456               fBodyGyro-kurtosis()-X		Kurtosis of frequency for body angular velocity in X-Dimension
+
+457               fBodyGyro-skewness()-Y		Skewness of frequency for body angular velocity in Y-dimension
+
+458               fBodyGyro-kurtosis()-Y		Kurtosis of frequency for body angular velocity in Y-Dimension
+
+459               fBodyGyro-skewness()-Z		Skewness of frequency for body angular velocity in Z-dimension
+
+460               fBodyGyro-kurtosis()-Z		Kurtosis of frequency for body angular velocity in Z-Dimension
+
+461          fBodyGyro-bandsEnergy()-1,8		Energy of a frequency interval within the stated bins of the FFT of each window
+
+462         fBodyGyro-bandsEnergy()-9,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+463        fBodyGyro-bandsEnergy()-17,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+464        fBodyGyro-bandsEnergy()-25,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+465        fBodyGyro-bandsEnergy()-33,40		Energy of a frequency interval within the stated bins of the FFT of each window
+
+466        fBodyGyro-bandsEnergy()-41,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+467        fBodyGyro-bandsEnergy()-49,56		Energy of a frequency interval within the stated bins of the FFT of each window
+
+468        fBodyGyro-bandsEnergy()-57,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+469         fBodyGyro-bandsEnergy()-1,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+470        fBodyGyro-bandsEnergy()-17,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+471        fBodyGyro-bandsEnergy()-33,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+472        fBodyGyro-bandsEnergy()-49,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+473         fBodyGyro-bandsEnergy()-1,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+474        fBodyGyro-bandsEnergy()-25,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+475          fBodyGyro-bandsEnergy()-1,8		Energy of a frequency interval within the stated bins of the FFT of each window
+
+476         fBodyGyro-bandsEnergy()-9,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+477        fBodyGyro-bandsEnergy()-17,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+478        fBodyGyro-bandsEnergy()-25,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+479        fBodyGyro-bandsEnergy()-33,40		Energy of a frequency interval within the stated bins of the FFT of each window
+
+480        fBodyGyro-bandsEnergy()-41,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+481        fBodyGyro-bandsEnergy()-49,56		Energy of a frequency interval within the stated bins of the FFT of each window
+
+482        fBodyGyro-bandsEnergy()-57,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+483         fBodyGyro-bandsEnergy()-1,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+484        fBodyGyro-bandsEnergy()-17,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+485        fBodyGyro-bandsEnergy()-33,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+486        fBodyGyro-bandsEnergy()-49,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+487         fBodyGyro-bandsEnergy()-1,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+488        fBodyGyro-bandsEnergy()-25,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+489          fBodyGyro-bandsEnergy()-1,8		Energy of a frequency interval within the stated bins of the FFT of each window
+
+490         fBodyGyro-bandsEnergy()-9,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+491        fBodyGyro-bandsEnergy()-17,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+492        fBodyGyro-bandsEnergy()-25,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+493        fBodyGyro-bandsEnergy()-33,40		Energy of a frequency interval within the stated bins of the FFT of each window
+
+494        fBodyGyro-bandsEnergy()-41,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+495        fBodyGyro-bandsEnergy()-49,56		Energy of a frequency interval within the stated bins of the FFT of each window
+
+496        fBodyGyro-bandsEnergy()-57,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+497         fBodyGyro-bandsEnergy()-1,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+498        fBodyGyro-bandsEnergy()-17,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+499        fBodyGyro-bandsEnergy()-33,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+500        fBodyGyro-bandsEnergy()-49,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+501         fBodyGyro-bandsEnergy()-1,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+502        fBodyGyro-bandsEnergy()-25,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+		
+503                   fBodyAccMag-mean()		Mean of magnitude of body acceleration
+
+504                    fBodyAccMag-std()		Standard deviation of magnitude of body acceleration
+
+505                    fBodyAccMag-mad()		Median absolute deviation of the magnitude of body acceleration
+
+506                    fBodyAccMag-max()		Largest value of the magnitude of body acceleration
+
+507                    fBodyAccMag-min()		Smallest value of the magnitude of body acceleration 
+
+508                    fBodyAccMag-sma()		Signal magnitude of the magnitude of body acceleration 
+
+509                 fBodyAccMag-energy()		Energy measures of the magnitude of body acceleration 
+
+510                    fBodyAccMag-iqr()		interquartile range of the magnitude of body acceleration 
+
+511                fBodyAccMag-entropy()		Signal entropy of the magnitude of body acceleration 
+
+512                  fBodyAccMag-maxInds		Index of the frequency component with largest magnitude when applied to body acceleration in X-dimension
+
+513               fBodyAccMag-meanFreq()		Weighted average of the frequency components for body acceleration
+
+514               fBodyAccMag-skewness()		Skewness of frequency for body acceleration
+
+515               fBodyAccMag-kurtosis()		Kurtosis of frequency for body acceleration
+
+516           fBodyBodyAccJerkMag-mean()		Mean of magnitude of body jerk acceleration
+
+517            fBodyBodyAccJerkMag-std()		Standard deviation of magnitude of body jerk acceleration
+
+518            fBodyBodyAccJerkMag-mad()		Median absolute deviation of the magnitude of body jerk acceleration
+
+519            fBodyBodyAccJerkMag-max()		Largest value of the magnitude of body jerk acceleration
+
+520            fBodyBodyAccJerkMag-min()		Smallest value of the magnitude of body jerk acceleration
+
+521            fBodyBodyAccJerkMag-sma()		Signal magnitude of the magnitude of body jerk acceleration 
+
+522         fBodyBodyAccJerkMag-energy()		Energy measures of the magnitude of body jerk acceleration 
+
+523            fBodyBodyAccJerkMag-iqr()		interquartile range of the magnitude of body jerk acceleration 
+
+524        fBodyBodyAccJerkMag-entropy()		Signal entropy of the magnitude of body jerk acceleration 
+
+525          fBodyBodyAccJerkMag-maxInds		Index of the frequency component with largest magnitude when applied to body jerk acceleration
+
+526       fBodyBodyAccJerkMag-meanFreq()		Weighted average of the frequency components for body jerk acceleration
+
+527       fBodyBodyAccJerkMag-skewness()		Skewness of frequency for body jerk acceleration
+
+528       fBodyBodyAccJerkMag-kurtosis()		Kurtosis of frequency for body jerk acceleration
+
+529              fBodyBodyGyroMag-mean()		Mean of FFT of magnitude of body angular velocity
+
+530               fBodyBodyGyroMag-std()		Standard deviation of FFT of magnitude of body angular velocity
+
+531               fBodyBodyGyroMag-mad()		Median absolute deviation of the FFT of magnitude of body angular velocity
+
+532               fBodyBodyGyroMag-max()		Largest value of the magnitude of FFT of body angular velocity 
+
+533               fBodyBodyGyroMag-min()		Smallest value of the magnitude of FFT of body angular velocity 
+
+534               fBodyBodyGyroMag-sma()		Signal magnitude of the magnitude of FFT of body angular velocity 
+
+535            fBodyBodyGyroMag-energy()		Energy measures of the magnitude of FFT of body angular velocity 
+
+536               fBodyBodyGyroMag-iqr()		interquartile range of the magnitude of FFT of body angular velocity 
+
+537           fBodyBodyGyroMag-entropy()		Signal entropy of the magnitude of FFT of body angular velocity 
+
+538             fBodyBodyGyroMag-maxInds		Index of the frequency component with largest magnitude when applied to body angular velocity
+
+539          fBodyBodyGyroMag-meanFreq()		Weighted average of the frequency components for body angular velocity
+
+540          fBodyBodyGyroMag-skewness()		Skewness of frequency for body angular velocity
+
+541          fBodyBodyGyroMag-kurtosis()		Kurtosis of frequency for body angular velocity
+
+542          fBodyBodyGyroJerkMag-mean()		Mean of magnitude of body jerk angular velocity
+
+543           fBodyBodyGyroJerkMag-std()		Standard deviation of magnitude of body jerk angular velocity
+
+544           fBodyBodyGyroJerkMag-mad()		Median absolute deviation of the magnitude of body jerk angular velocity
+
+545           fBodyBodyGyroJerkMag-max()		Largest value of the magnitude of body jerk angular velocity
+
+546           fBodyBodyGyroJerkMag-min()		Smallest value of the magnitude of body jerk angular velocity 
+
+547           fBodyBodyGyroJerkMag-sma()		Signal magnitude of the magnitude of body jerk angular velocity 
+
+548        fBodyBodyGyroJerkMag-energy()		Energy measures of the magnitude of body jerk angular velocity 
+
+549           fBodyBodyGyroJerkMag-iqr()		interquartile range of the magnitude of body jerk angular velocity 
+
+550       fBodyBodyGyroJerkMag-entropy()		Signal entropy of the magnitude of body jerk angular velocity 
+
+551         fBodyBodyGyroJerkMag-maxInds		Index of the frequency component with largest magnitude when applied to body jerk angular velocity
+
+552      fBodyBodyGyroJerkMag-meanFreq()		Weighted average of the frequency components for body jerk angular velocity
+
+553      fBodyBodyGyroJerkMag-skewness()		Skewness of frequency for body jerk angular velocity
+
+554      fBodyBodyGyroJerkMag-kurtosis()		Kurtosis of frequency for body jerk angular velocity
+
+		
+555          angle(tBodyAccMean,gravity)		Angle between mean of body acceleration and gravity)
+556 angle(tBodyAccJerkMean),gravityMean)		Angle between mean of body jerk acceleration and gravity mean)
+557     angle(tBodyGyroMean,gravityMean)		Angle between mean of body angular velocity and gravity mean)
+558 angle(tBodyGyroJerkMean,gravityMean)		Angle between mean of body jerk angular velocity and gravity mean)
+559                 angle(X,gravityMean)		Angle between X and gravity mean
+
+560                 angle(Y,gravityMean)		Angle between Y and gravity mean
+
+561                 angle(Z,gravityMean)		Angle between Z and gravity mean
