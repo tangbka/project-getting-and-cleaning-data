@@ -18,4 +18,4 @@ This is the cleaned data. If you follow the stesp in the <u>CodeBook.md</u> and 
 
 
 ######What You Should Do?
-<p>Start by reading the steps and meaning of the variables in (3) CodeBook.md. Then run the script <u>run_analysis.R</u> in R. </p>
+<p>Start by reading the steps and meaning of the variables in <b>(3) CodeBook.md</b>. Then run the script <b>(4) run_analysis.R</b> in R. </p>
