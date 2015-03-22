@@ -3,6 +3,11 @@
 
 
 All values for variables 1 to 561 have been normalised to between 1 and -1.
+Unit: 
+(1) All acceleration measurements (including mean, standard deviation, absolute deviation, quantiles, max, min) are recorded in units of g (or 9.8 m/s2).
+(2) Gyroscope measurements (including mean, standard deviation, absolute deviation, quantiles, max, min) are reported in radians/seconds.
+(3) All coefficients (i.e. autoregressions, correlation) and indices do not have units
+(4) Angles (Variables 555 to 561) are reported in degrees.
 
 1 		             tBodyAcc-mean()-X			Mean of body acceleration in the X-dimension
 
