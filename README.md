@@ -8,10 +8,11 @@ It contains the following files:
 This file provides an overview and background of this repo.
 
 #####2) run_analysis.R 
-Script to be run in R that would create a tidy data set extracted from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Script to be run in R that would create a tidy data set extracted from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+The steps I took to extract the data I need and create a tidy data set is also chronicled in this script.
 
 #####3) CodeBook.md
-This file explains the variables in the tidy data set, the data and the steps I took to clean up the raw data.
+This file explains the variables in the raw (and processed) data set as well as the data.
 
 #####4) TidyData.txt
 This is the cleaned data. You should see this file located in the Coursera webpage under "Course Project", if you happen to evaluate my assignment. If you follow the steps in the <u>CodeBook.md</u> and run the scrip <u>run_analysis.R</u> in R, you should obtain the same data set.
