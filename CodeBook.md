@@ -526,7 +526,8 @@ on
 
 260               tBodyGyroJerkMag-iqr()		interquartile range of the magnitude of body jerk angular velocity 
 
-261           tBodyGyroJerkMag-entropy()		Signal entropy of the magnitude of body jerk angular velocity 
+261           tBodyGyroJerkMag-entropy()		Signal entropy of the magnitude of body jerk angular velocity
+
 262          tBodyGyroJerkMag-arCoeff()1		Autorregresion coefficient of the magnitude of body jerk angular velocity  (Order 1)
 
 263          tBodyGyroJerkMag-arCoeff()2		Autorregresion coefficient of the magnitude of body jerk angular velocity  (Order 2)
@@ -541,81 +542,58 @@ on
 
 268                    fBodyAcc-mean()-Z		mean of Fast Fourier Transform applied on body acceleration in Z-dimension
 
-269                     fBodyAcc-std()-X		Standard deviation of Fast Fourier Transform applied on body acceleration in the X-
+269                     fBodyAcc-std()-X		Standard deviation of Fast Fourier Transform applied on body acceleration in the X-dimension
 
-dimension
-270                     fBodyAcc-std()-Y		Standard deviation of Fast Fourier Transform applied on body acceleration in the Y-
+270                     fBodyAcc-std()-Y		Standard deviation of Fast Fourier Transform applied on body acceleration in the Y-dimension
 
-dimension
-271                     fBodyAcc-std()-Z		Standard deviation of Fast Fourier Transform applied on body acceleration in the Z-
+271                     fBodyAcc-std()-Z		Standard deviation of Fast Fourier Transform applied on body acceleration in the Z-dimension
 
-dimension
-272                     fBodyAcc-mad()-X		Median absolute deviation of the Fast Fourier Transform applied on body acceleration in 
+272                     fBodyAcc-mad()-X		Median absolute deviation of the Fast Fourier Transform applied on body acceleration in the X-dimension
 
-the X-dimension
-273                     fBodyAcc-mad()-Y		Median absolute deviation of the Fast Fourier Transform applied on body acceleration in 
+273                     fBodyAcc-mad()-Y		Median absolute deviation of the Fast Fourier Transform applied on body acceleration in the Y-dimension
 
-the Y-dimension
-274                     fBodyAcc-mad()-Z		Median absolute deviation of the Fast Fourier Transform applied on body acceleration in 
+274                     fBodyAcc-mad()-Z		Median absolute deviation of the Fast Fourier Transform applied on body acceleration in the Z-dimension
 
-the Z-dimension
-275                     fBodyAcc-max()-X		Largest value of the Fast Fourier Transform applied on body acceleration in the X-
+275                     fBodyAcc-max()-X		Largest value of the Fast Fourier Transform applied on body acceleration in the X-dimension
 
-dimension
-276                     fBodyAcc-max()-Y		Largest value of the Fast Fourier Transform applied on body acceleration in the Y-
+276                     fBodyAcc-max()-Y		Largest value of the Fast Fourier Transform applied on body acceleration in the Y-dimension
 
-dimension
-277                     fBodyAcc-max()-Z		Largest value of the Fast Fourier Transform applied on body acceleration in the Z-
+277                     fBodyAcc-max()-Z		Largest value of the Fast Fourier Transform applied on body acceleration in the Z-dimension
 
-dimension
-278                     fBodyAcc-min()-X		Smallest value of the Fast Fourier Transform applied on body acceleration in the X-
+278                     fBodyAcc-min()-X		Smallest value of the Fast Fourier Transform applied on body acceleration in the X-dimension
 
-dimension
-279                     fBodyAcc-min()-Y		Smallest value of the Fast Fourier Transform applied on body acceleration in the Y-
+279                     fBodyAcc-min()-Y		Smallest value of the Fast Fourier Transform applied on body acceleration in the Y-dimension
 
-dimension
-280                     fBodyAcc-min()-Z		Smallest value of the Fast Fourier Transform applied on body acceleration in the Z-
+280                     fBodyAcc-min()-Z		Smallest value of the Fast Fourier Transform applied on body acceleration in the Z-dimension
 
-dimension
 281                       fBodyAcc-sma()		Signal magnitude area of the Fast Fourier Transform applied on body acceleration
 
 282                  fBodyAcc-energy()-X		Energy measure of the Fast Fourier Transform applied on body acceleration in the X-dimension]
 
-283                  fBodyAcc-energy()-Y		Energy measure of the Fast Fourier Transform applied on body acceleration in the Y-
+283                  fBodyAcc-energy()-Y		Energy measure of the Fast Fourier Transform applied on body acceleration in the Y-dimension
 
-dimension
 
-284                  fBodyAcc-energy()-Z		Energy measure of the Fast Fourier Transform applied on body acceleration in the Z-
+284                  fBodyAcc-energy()-Z		Energy measure of the Fast Fourier Transform applied on body acceleration in the Z-dimension
 
-dimension
 
-285                     fBodyAcc-iqr()-X		Interquartile range of the Fast Fourier Transform applied on body acceleration in the X-
+285                     fBodyAcc-iqr()-X		Interquartile range of the Fast Fourier Transform applied on body acceleration in the X-dimension
 
-dimension
-286                     fBodyAcc-iqr()-Y		Interquartile range of the Fast Fourier Transform applied on body acceleration in the Y-
+286                     fBodyAcc-iqr()-Y		Interquartile range of the Fast Fourier Transform applied on body acceleration in the Y-dimension
 
-dimension
-287                     fBodyAcc-iqr()-Z		Interquartile range of the Fast Fourier Transform applied on body acceleration in the Z-
+287                     fBodyAcc-iqr()-Z		Interquartile range of the Fast Fourier Transform applied on body acceleration in the Z-dimension
 
-dimension
-288                 fBodyAcc-entropy()-X		Signal entropy of the Fast Fourier Transform applied on body acceleration in the X-
+288                 fBodyAcc-entropy()-X		Signal entropy of the Fast Fourier Transform applied on body acceleration in the X-dimension
 
-dimension
-289                 fBodyAcc-entropy()-Y		Signal entropy of the Fast Fourier Transform applied on body acceleration in the Y-
+289                 fBodyAcc-entropy()-Y		Signal entropy of the Fast Fourier Transform applied on body acceleration in the Y-dimension
 
-dimension
-290                 fBodyAcc-entropy()-Z		Signal entropy of the Fast Fourier Transform applied on body acceleration in the Z-
+290                 fBodyAcc-entropy()-Z		Signal entropy of the Fast Fourier Transform applied on body acceleration in the Z-dimension
 
-dimension
-291                   fBodyAcc-maxInds-X		Index of the frequency component with largest magnitude when applied to body acceleration 
+291                   fBodyAcc-maxInds-X		Index of the frequency component with largest magnitude when applied to body acceleration in X-dimension
 
-in X-dimension
-292                   fBodyAcc-maxInds-Y		Index of the frequency component with largest magnitude when applied to body acceleration 
+292                   fBodyAcc-maxInds-Y		Index of the frequency component with largest magnitude when applied to body acceleration in X-dimension
 
-in X-dimension
-293                   fBodyAcc-maxInds-Z		Index of the frequency component with largest magnitude when applied to body acceleration 
+293                   fBodyAcc-maxInds-Z		Index of the frequency component with largest magnitude when applied to body acceleration in X-dimension
 
-in X-dimension
 294                fBodyAcc-meanFreq()-X		Weighted average of the frequency components for body acceleration in X-dimension
 
 295                fBodyAcc-meanFreq()-Y		Weighted average of the frequency components for body acceleration in Y-dimension
