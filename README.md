@@ -1,6 +1,7 @@
 ### Course Project - Getting and Cleaning Data
 This repo contains the script to clean up and create a tidy data set as part of the Coursera course Getting &amp; Cleaning Data.
 
+
 It contains the following files:
 
 #####1) README.md
@@ -14,3 +15,5 @@ This file explains the variables in the tidy data set, the data and the steps I 
 
 #####4) TidyData.txt
 This is the cleaned data.
+
+<u><b> What You Should Do?<\b><\u>
