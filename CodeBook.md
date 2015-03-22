@@ -717,3 +717,161 @@ in X-dimension
 343          fBodyAcc-bandsEnergy()-1,24		Energy of a frequency interval within the stated bins of the FFT of each window
 
 344         fBodyAcc-bandsEnergy()-25,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+345                fBodyAccJerk-mean()-X		mean of Fast Fourier Transform applied on body jerk acceleration in X-dimension
+
+346                fBodyAccJerk-mean()-Y		mean of Fast Fourier Transform applied on body jerk acceleration in Y-dimension
+
+347                fBodyAccJerk-mean()-Z		mean of Fast Fourier Transform applied on body jerk acceleration in Z-dimension
+
+348                 fBodyAccJerk-std()-X		Standard deviation of Fast Fourier Transform applied on body jerk acceleration in the X-dimension
+
+349                 fBodyAccJerk-std()-Y		Standard deviation of Fast Fourier Transform applied on body jerk acceleration in the Y-dimension
+
+350                 fBodyAccJerk-std()-Z		Standard deviation of Fast Fourier Transform applied on body jerk acceleration in the Z-dimension
+
+351                 fBodyAccJerk-mad()-X		Median absolute deviation of the Fast Fourier Transform applied on body jerk acceleration in the X-dimension
+
+352                 fBodyAccJerk-mad()-Y		Median absolute deviation of the Fast Fourier Transform applied on body jerk acceleration in the Y-dimension
+
+353                 fBodyAccJerk-mad()-Z		Median absolute deviation of the Fast Fourier Transform applied on body jerk acceleration in the Z-dimension
+
+354                 fBodyAccJerk-max()-X		Largest value of the Fast Fourier Transform applied on body jerk acceleration in the X-dimension
+
+355                 fBodyAccJerk-max()-Y		Largest value of the Fast Fourier Transform applied on body jerk acceleration in the Y-dimension
+
+356                 fBodyAccJerk-max()-Z		Largest value of the Fast Fourier Transform applied on body jerk acceleration in the Z-dimension
+
+357                 fBodyAccJerk-min()-X		Smallest value of the Fast Fourier Transform applied on body jerk acceleration in the X-dimension
+
+358                 fBodyAccJerk-min()-Y		Smallest value of the Fast Fourier Transform applied on body jerk acceleration in the Y-dimension
+
+359                 fBodyAccJerk-min()-Z		Smallest value of the Fast Fourier Transform applied on body jerk acceleration in the Z-dimension
+
+360                   fBodyAccJerk-sma()		Signal magnitude area of the Fast Fourier Transform applied on body jerk acceleration
+
+361              fBodyAccJerk-energy()-X		Energy measure of the Fast Fourier Transform applied on body jerk acceleration in the X-dimension
+
+362              fBodyAccJerk-energy()-Y		Energy measure of the Fast Fourier Transform applied on body jerk acceleration in the Y-dimension
+
+363              fBodyAccJerk-energy()-Z		Energy measure of the Fast Fourier Transform applied on body jerk acceleration in the Z-dimension
+
+364                 fBodyAccJerk-iqr()-X		Interquartile range of the Fast Fourier Transform applied on body jerk acceleration in the X-dimension
+
+365                 fBodyAccJerk-iqr()-Y		Interquartile range of the Fast Fourier Transform applied on body jerk acceleration in the Y-dimension
+
+366                 fBodyAccJerk-iqr()-Z		Interquartile range of the Fast Fourier Transform applied on body jerk acceleration in the Z-dimension
+
+367             fBodyAccJerk-entropy()-X		Signal entropy of the Fast Fourier Transform applied on body jerk acceleration in the X-dimension
+
+368             fBodyAccJerk-entropy()-Y		Signal entropy of the Fast Fourier Transform applied on body jerk acceleration in the Y-dimension
+
+369             fBodyAccJerk-entropy()-Z		Signal entropy of the Fast Fourier Transform applied on body jerk acceleration in the Z-dimension
+
+370               fBodyAccJerk-maxInds-X		Index of the frequency component with largest magnitude when applied to body jerk acceleration in X-dimension
+
+371               fBodyAccJerk-maxInds-Y		Index of the frequency component with largest magnitude when applied to body jerk acceleration in X-dimension
+
+372               fBodyAccJerk-maxInds-Z		Index of the frequency component with largest magnitude when applied to body jerk acceleration in X-dimension
+
+373            fBodyAccJerk-meanFreq()-X		Weighted average of the frequency components for body jerk acceleration in X-dimension
+
+374            fBodyAccJerk-meanFreq()-Y		Weighted average of the frequency components for body jerk acceleration in Y-dimension
+
+375            fBodyAccJerk-meanFreq()-Z		Weighted average of the frequency components for body jerk acceleration in Z-dimension
+
+376            fBodyAccJerk-skewness()-X		Skewness of frequency for body jerk acceleration in X-dimension
+
+377            fBodyAccJerk-kurtosis()-X		Kurtosis of frequency for body jerk acceleration in X-Dimension.
+
+378            fBodyAccJerk-skewness()-Y		Skewness of frequency for body jerk acceleration in Y-dimension
+
+379            fBodyAccJerk-kurtosis()-Y		Kurtosis of frequency for body jerk acceleration in Y-Dimension.
+
+380            fBodyAccJerk-skewness()-Z		Skewness of frequency for body jerk acceleration in Z-dimension
+
+381            fBodyAccJerk-kurtosis()-Z		Kurtosis of frequency for body jerk acceleration in Z-Dimension.
+
+382       fBodyAccJerk-bandsEnergy()-1,8		Energy of a frequency interval within the stated bins of the FFT of each window
+
+383      fBodyAccJerk-bandsEnergy()-9,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+384     fBodyAccJerk-bandsEnergy()-17,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+385     fBodyAccJerk-bandsEnergy()-25,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+386     fBodyAccJerk-bandsEnergy()-33,40		Energy of a frequency interval within the stated bins of the FFT of each window
+
+387     fBodyAccJerk-bandsEnergy()-41,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+388     fBodyAccJerk-bandsEnergy()-49,56		Energy of a frequency interval within the stated bins of the FFT of each window
+
+389     fBodyAccJerk-bandsEnergy()-57,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+390      fBodyAccJerk-bandsEnergy()-1,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+391     fBodyAccJerk-bandsEnergy()-17,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+392     fBodyAccJerk-bandsEnergy()-33,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+393     fBodyAccJerk-bandsEnergy()-49,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+394      fBodyAccJerk-bandsEnergy()-1,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+395     fBodyAccJerk-bandsEnergy()-25,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+396       fBodyAccJerk-bandsEnergy()-1,8		Energy of a frequency interval within the stated bins of the FFT of each window
+
+397      fBodyAccJerk-bandsEnergy()-9,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+398     fBodyAccJerk-bandsEnergy()-17,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+399     fBodyAccJerk-bandsEnergy()-25,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+400     fBodyAccJerk-bandsEnergy()-33,40		Energy of a frequency interval within the stated bins of the FFT of each window
+
+401     fBodyAccJerk-bandsEnergy()-41,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+402     fBodyAccJerk-bandsEnergy()-49,56		Energy of a frequency interval within the stated bins of the FFT of each window
+
+403     fBodyAccJerk-bandsEnergy()-57,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+404      fBodyAccJerk-bandsEnergy()-1,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+405     fBodyAccJerk-bandsEnergy()-17,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+406     fBodyAccJerk-bandsEnergy()-33,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+407     fBodyAccJerk-bandsEnergy()-49,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+408      fBodyAccJerk-bandsEnergy()-1,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+409     fBodyAccJerk-bandsEnergy()-25,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+410       fBodyAccJerk-bandsEnergy()-1,8		Energy of a frequency interval within the stated bins of the FFT of each window
+
+411      fBodyAccJerk-bandsEnergy()-9,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+412     fBodyAccJerk-bandsEnergy()-17,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+413     fBodyAccJerk-bandsEnergy()-25,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+414     fBodyAccJerk-bandsEnergy()-33,40		Energy of a frequency interval within the stated bins of the FFT of each window
+
+415     fBodyAccJerk-bandsEnergy()-41,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+416     fBodyAccJerk-bandsEnergy()-49,56		Energy of a frequency interval within the stated bins of the FFT of each window
+
+417     fBodyAccJerk-bandsEnergy()-57,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+418      fBodyAccJerk-bandsEnergy()-1,16		Energy of a frequency interval within the stated bins of the FFT of each window
+
+419     fBodyAccJerk-bandsEnergy()-17,32		Energy of a frequency interval within the stated bins of the FFT of each window
+
+420     fBodyAccJerk-bandsEnergy()-33,48		Energy of a frequency interval within the stated bins of the FFT of each window
+
+421     fBodyAccJerk-bandsEnergy()-49,64		Energy of a frequency interval within the stated bins of the FFT of each window
+
+422      fBodyAccJerk-bandsEnergy()-1,24		Energy of a frequency interval within the stated bins of the FFT of each window
+
+423     fBodyAccJerk-bandsEnergy()-25,48		Energy of a frequency interval within the stated bins of the FFT of each window
