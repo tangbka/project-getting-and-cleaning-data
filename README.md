@@ -4,16 +4,18 @@ This repo contains the script to clean up and create a tidy data set as part of 
 
 It contains the following files:
 
-#####1) README.md
+######1) README.md
 This file provides an overview and background of this repo.
 
-#####2) run_analysis.R 
+######2) run_analysis.R 
 Script to be run in R that would create a tidy data set extracted from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-#####3) Codebook.md
+######3) CodeBook.md
 This file explains the variables in the tidy data set, the data and the steps I took to clean up the raw data.
 
-#####4) TidyData.txt
-This is the cleaned data.
+######4) TidyData.txt
+This is the cleaned data. If you follow the stesp in the <u>CodeBook.md</u> and run the scrip <u>run_analysis.R</u> in R, you should obtain the same data set.
 
-<u><b> What You Should Do?</b></u>
+
+<u>What You Should Do?</u>
+Start by reading the steps and meaning of the variables in (3) <u>CodeBook.md</u>. Then run the script <u>run_analysis.R</u> in R. 
